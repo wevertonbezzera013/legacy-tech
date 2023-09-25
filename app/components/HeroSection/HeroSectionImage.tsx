@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function HeroSectionImage() {
   return (
-    <section className="container flex content-center">
-      <div className="flex relative md:mr-36">
+    <section className="container flex content-center drop-shadow-button">
+      <div className="flex relative md:mr-36 drop-shadow-button">
         <Image
           src="/images/SCREEN 1.png"
           alt="SCREEN 1"
           width={225}
           height={340}
-          className="relative right-16 md:right-[94px] md:w-[325px]"
+          className="relative right-16 md:right-[94px] md:w-[325px] "
         />
 
         <Image
@@ -17,7 +17,7 @@ export default function HeroSectionImage() {
           alt="SCREEN 2"
           width={325}
           height={340}
-          className="absolute left-16 md:left-[159px] md:w-[325px]"
+          className="absolute left-16 md:left-[159px] md:w-[325px] shadow"
         />
       </div>
       <Image

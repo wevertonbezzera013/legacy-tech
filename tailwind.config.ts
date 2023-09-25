@@ -18,6 +18,7 @@ const config: Config = {
       "form-blue": "#0095D7",
       "circle-blue": "#13337A1A",
       "light-green": "#49B69F",
+      one: "#546EAA1A",
     },
     extend: {
       backgroundImage: {

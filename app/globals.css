@@ -24,3 +24,11 @@ body {
 .container {
   @apply mx-auto w-full max-w-[1200px] px-6;
 }
+
+.shadow {
+  filter: drop-shadow(0 0 8.75rem #49b69f);
+}
+
+.shadowBlue {
+  filter: drop-shadow(0 0 5.75rem #00b1ff);
+}
