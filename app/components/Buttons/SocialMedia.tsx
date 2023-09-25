@@ -2,7 +2,7 @@ import { Icon } from "../icons/icons";
 
 export default function SocialMedia() {
   return (
-    <div className="grid grid-cols-4 gap-10 absolute">
+    <div className="flex gap-10 absolute">
       <a className=" " href="" target="_blank">
         <Icon
           name="FaGithub"

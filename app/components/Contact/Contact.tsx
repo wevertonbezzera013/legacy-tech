@@ -69,12 +69,12 @@ export const ContactSection = () => {
                   {...register("message")}
                 />
               </div>
-              <button className="mt-6 bg-primary-blue uppercase hover:bg-light-blue rounded-lg ease-in-out duration-300 font-krona px-full py-4 px-24 text-white font-bold">
+              <button className="mt-6 bg-primary-blue uppercase hover:bg-light-blue rounded-lg ease-in-out duration-300 text-sm px-full py-4 px-24 md:text-base md:py-4 md:px-10 text-white font-bold">
                 Entre em Contato
               </button>
             </form>
             <div className="absolute contents">
-              <div className="mt-6">
+              <div className="mt-6 flex justify-center">
                 <SocialMedia />
               </div>
             </div>
