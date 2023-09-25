@@ -17,6 +17,7 @@ const config: Config = {
       "secondary-txt": "#101827",
       "form-blue": "#0095D7",
       "circle-blue": "#13337A1A",
+      "light-green": "#49B69F",
     },
     extend: {
       backgroundImage: {

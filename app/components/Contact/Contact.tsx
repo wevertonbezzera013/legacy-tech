@@ -31,7 +31,7 @@ export const ContactSection = () => {
       <div className="md:absolute hidden md:block right-0 top-1/2 transform translate-y-[-10%] w-[394px] h-[385px] rounded-full bg-circle-blue"></div>
       <div className="container md:absolute inset-0 flex justify-center items-center">
         <div className="w-full max-w-[320px] md:max-w-[420px] mx-auto">
-          <div className="md:absolute hidden md:block right-0 top-2 transform translate-y-[-10%] w-[94px] h-[85px] rounded-full bg-circle-blue"></div>
+          <div className="md:relative hidden md:block right-0 top-2 transform translate-y-[-10%] w-[94px] h-[85px] rounded-full bg-circle-blue"></div>
           <h1 className="text-center items-center text-2xl font-bold">
             Forem ipsum dolor sit amet, consectetur
             <p className="text-green-blue">adipiscing elit.</p>
