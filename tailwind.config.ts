@@ -11,6 +11,10 @@ const config: Config = {
       "dark-blue": "#00040C",
       "green-blue": "#06FFCB",
       "deep-blue": "#111827",
+      "primary-blue": "#0059E5",
+      "light-blue": "#00B1FF",
+      "bg-blue": "#101827",
+      "secondary-txt": "#101827",
     },
     extend: {
       backgroundImage: {

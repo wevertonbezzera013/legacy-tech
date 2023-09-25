@@ -12,18 +12,13 @@ type FooterItemProps = {
 };
 
 export const FooterItem = ({ label, href, icon }: FooterItemProps) => {
-  const pathname = usePathname();
-
-  const isActive = pathname === href;
-
   return (
     <Link
       href={href}
       target="_blank"
-      className={cn(
-        "flex items-center ease-in-out p-2 rounded-sm text-white gap-2",
-        isActive && "text-white"
-      )}
+      className={
+        "flex items-center p-2 rounded-sm text-white gap-2 hover:text-green-blue ease-in-out duration-300"
+      }
     >
       <div className="text-xl">
         <Icon name={icon} />
