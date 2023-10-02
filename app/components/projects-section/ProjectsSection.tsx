@@ -23,7 +23,7 @@ export const ProjectsSection = () => {
         {Array.from({ length: visible }).map((_, index) => (
           <motion.div
             key={index}
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1, delay: index * 0.5 }}

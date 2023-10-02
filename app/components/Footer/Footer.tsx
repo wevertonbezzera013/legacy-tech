@@ -73,8 +73,8 @@ export default function Footer() {
           {FOOTER_NAV_ITEMS.map((item, i) => (
             <motion.div
               key={item.label}
-              initial={{ opacity: 0, x: -100 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 1, delay: i * 0.5 }}
             >

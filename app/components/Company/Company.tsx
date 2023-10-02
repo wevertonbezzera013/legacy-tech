@@ -20,7 +20,7 @@ const COMPANY_SECTION_ITEMS = [
 
 export default function Company() {
   return (
-    <section className="w-full bg-dark-blue top-0 z-10 mt-52 py-44">
+    <section className="w-full bg-dark-blue top-0 mt-52 py-44">
       <div className="flex flex-col container">
         <motion.div
           initial={{ opacity: 0 }}
