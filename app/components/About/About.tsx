@@ -68,7 +68,7 @@ export default function About() {
             </h1>
           </motion.div>
           <motion.div
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 2 }}
