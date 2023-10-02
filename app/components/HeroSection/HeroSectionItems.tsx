@@ -1,5 +1,3 @@
-import Link from "next/link";
-import { Icon } from "../icons/icons";
 import Image from "next/image";
 
 type FooterItemProps = {
@@ -17,7 +15,7 @@ export const HeroSectionItems = ({
 }: FooterItemProps) => {
   return (
     <section className="container">
-      <div className="flex flex-col gap-2 p-8 bg-gradient-to-t md:hover:pt-16 ease-in-out duration-300 from-bg-blue to-one rounded-3xl">
+      <div className="flex flex-col gap-2 p-8 bg-gradient-to-t md:hover:scale-110 ease-in-out duration-300 from-bg-blue to-one rounded-3xl">
         <Image
           src={src}
           alt={alt}

@@ -1,5 +1,6 @@
 "use client";
-import Link from "next/link";
+
+import { motion } from "framer-motion";
 import { useState } from "react";
 import { ProjectsSectionCard } from "./ProjectsSectionCard";
 import { Icon } from "../icons/icons";
@@ -20,7 +21,15 @@ export const ProjectsSection = () => {
       <div className="flex flex-col gap-11 my-11">
         {/* Render the visible projects */}
         {Array.from({ length: visible }).map((_, index) => (
-          <ProjectsSectionCard key={index} />
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, x: 100 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 1, delay: index * 0.5 }}
+          >
+            <ProjectsSectionCard />
+          </motion.div>
         ))}
         {/* Gradient Load More Button */}
         {visible < totalProjects && (
