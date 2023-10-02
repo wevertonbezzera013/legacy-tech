@@ -38,7 +38,7 @@ export const ContactSection = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-center items-center text-2xl font-bold">
+            <h1 className="text-start items-center text-2xl font-bold">
               Forem ipsum dolor sit amet, consectetur
               <p className="text-green-blue">adipiscing elit.</p>
             </h1>
