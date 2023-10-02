@@ -25,7 +25,7 @@ export default function About() {
       <div className="container flex flex-col md:flex-row md:gap-36">
         <div className="flex relative items-center pb-24 md:mr-36 drop-shadow-button">
           <motion.div
-            initial={{ opacity: 0, x: 100 }}
+            initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1 }}
