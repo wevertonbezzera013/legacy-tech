@@ -5,16 +5,16 @@ import { motion } from "framer-motion";
 
 const COMPANY_SECTION_ITEMS = [
   {
-    alt: "SUZANO",
-    src: "/images/SUZANO.png",
+    alt: "SALZ",
+    src: "/images/SALZ.png",
   },
   {
-    alt: "SUZANO",
-    src: "/images/SUZANO.png",
+    alt: "UNIMED",
+    src: "/images/UNIMED.png",
   },
   {
-    alt: "SUZANO",
-    src: "/images/SUZANO.png",
+    alt: "GN",
+    src: "/images/GN-WHITE.png",
   },
 ];
 
@@ -29,8 +29,8 @@ export default function Company() {
           transition={{ duration: 1 }}
         >
           <h1 className="text-3xl font-bold mb-12">
-            Dorem ipsum dolor sit amet, consectetur{" "}
-            <b className="text-form-blue">adipiscing</b> elit
+            Clientes que Transformaram Suas Visões com a
+            <b className="text-form-blue"> LegacyTech</b> :
           </h1>
         </motion.div>
         <div className="flex flex-col gap-16 md:flex-row justify-between">

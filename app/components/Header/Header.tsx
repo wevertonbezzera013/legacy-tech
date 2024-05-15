@@ -20,18 +20,6 @@ export default function Header() {
             unoptimized
           />
         </motion.div>
-        <div className="px-4 md:pr-56">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1 }}
-          >
-            <button className="bg-primary-blue text-sm md:text-base rounded-xl px-5 py-1 font-semibold hover:bg-light-blue ease-in-out duration-300">
-              CONTATO
-            </button>
-          </motion.div>
-        </div>
       </nav>
     </header>
   );

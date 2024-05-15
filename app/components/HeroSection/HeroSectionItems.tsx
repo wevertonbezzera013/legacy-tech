@@ -3,19 +3,17 @@ import Image from "next/image";
 type FooterItemProps = {
   alt: string;
   src: string;
-  title: string;
-  description: string;
+  description: React.ReactNode;
 };
 
 export const HeroSectionItems = ({
   alt,
   src,
-  title,
   description,
 }: FooterItemProps) => {
   return (
     <section className="container">
-      <div className="flex flex-col gap-2 p-8 bg-gradient-to-t md:hover:scale-110 ease-in-out duration-300 from-bg-blue to-one rounded-3xl">
+      <div className="flex flex-col gap-2 p-8 bg-gradient-to-t md:hover:scale-110 ease-in-out duration-300 from-bg-blue to-one rounded-[71px]">
         <Image
           src={src}
           alt={alt}
@@ -23,8 +21,7 @@ export const HeroSectionItems = ({
           height={227}
           className="shadowBlue"
         />
-        <h1 className="font-bold text-2xl">{title}</h1>
-        <p className="text-lg">{description}</p>
+        <p className="text-xl font-bold">{description}</p>
       </div>
     </section>
   );
