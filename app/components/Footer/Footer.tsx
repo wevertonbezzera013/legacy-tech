@@ -11,18 +11,13 @@ const FOOTER_NAV_ITEMS = [
   },
   {
     label: "CONTACT",
-    href: "/CONTACT",
+    href: "/contact",
     icon: "",
   },
   {
     label: "LINKEDIN",
     href: "/LINKEDIN",
     icon: "BiLogoLinkedinSquare",
-  },
-  {
-    label: "PROJECTS",
-    href: "/PROJECTS",
-    icon: "",
   },
   {
     label: "INSTAGRAM",
@@ -50,7 +45,7 @@ export default function Footer() {
               unoptimized
             />
           </motion.div>
-          <div className="text-start text-2xl md:text-4xl px-4 md:pr-56">
+          <div className="text-start text-2xl md:text-2xl px-4 md:pr-56">
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
@@ -58,13 +53,13 @@ export default function Footer() {
               transition={{ duration: 1.5 }}
             >
               <h1 className="font-bold">
-                Forem ipsum
+                LegacyTech
                 <br />
-                dolor sit amet,
+                transformamos o seu
                 <br />
-                consecteturr
+                sucesso em
                 <br />
-                <b className="text-green-blue">adipiscing eli.</b>
+                <b className="text-green-blue">nossa meta.</b>
               </h1>
             </motion.div>
           </div>

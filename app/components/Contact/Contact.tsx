@@ -38,10 +38,12 @@ export const ContactSection = () => {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-start items-center text-2xl font-bold">
-              Forem ipsum dolor sit amet, consectetur
-              <p className="text-green-blue">adipiscing elit.</p>
-            </h1>
+            <div className="text-start items-center text-3xl font-bold">
+              <h1>Entre em Contato e</h1>
+              <span className=" text-light-blue">
+                Veja Sua Empresa Crescer!
+              </span>
+            </div>
           </motion.div>
           <div className="flex flex-col z-20">
             <form
@@ -109,9 +111,11 @@ export const ContactSection = () => {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 2 }}
               >
-                <button className="mt-6 bg-primary-blue uppercase hover:bg-light-blue rounded-lg ease-in-out duration-300 text-sm px-full py-4 px-24 md:text-base md:py-4 md:px-10 text-white font-bold">
-                  Entre em Contato
-                </button>
+                <a href="/contact">
+                  <button className="mt-6 bg-primary-blue uppercase hover:bg-light-blue rounded-lg ease-in-out duration-300 text-sm px-full py-4 px-24 md:text-base md:py-4 md:px-10 text-white font-bold">
+                    Entre em Contato
+                  </button>
+                </a>
               </motion.div>
             </form>
             <div className="absolute contents">

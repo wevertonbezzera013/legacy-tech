@@ -7,23 +7,35 @@ const HERO_SECTION_ITEMS = [
   {
     alt: "ILUSTRAÇÃO",
     src: "/images/ILUSTRAÇÃO.png",
-    title: "Lorem ipsum dolor sit ",
-    description:
-      "Lorem ipsum dolor sit amet, const adipiscing elit. Nunc vulputate libero et velit interdum, ac odio mattis. Class aptent taciti soad litora torquent per conubia noa, per inceptos himenaeos.",
+    description: (
+      <>
+        Utilizamos as melhores ferramentas de{" "}
+        <span className="text-light-green">Cloud Computing</span> para que seu
+        site seja rápido e seguro.
+      </>
+    ),
   },
   {
     alt: "ILUSTRAÇÃO",
-    src: "/images/ILUSTRAÇÃO.png",
-    title: "Lorem ipsum dolor sit ",
-    description:
-      "Lorem ipsum dolor sit amet, const adipiscing elit. Nunc vulputate libero et velit interdum, ac odio mattis. Class aptent taciti soad litora torquent per conubia noa, per inceptos himenaeos.",
+    src: "/images/ILUSTRAÇÃO2.png",
+    description: (
+      <>
+        Time de especialistas nosso time é composto por profissionais com{" "}
+        <span className="text-light-green">mais de 8 anos</span> de experiência
+        no mercado.
+      </>
+    ),
   },
   {
     alt: "ILUSTRAÇÃO",
-    src: "/images/ILUSTRAÇÃO.png",
-    title: "Lorem ipsum dolor sit ",
-    description:
-      "Lorem ipsum dolor sit amet, const adipiscing elit. Nunc vulputate libero et velit interdum, ac odio mattis. Class aptent taciti soad litora torquent per conubia noa, per inceptos himenaeos.",
+    src: "/images/ILUSTRAÇÃO3.png",
+    description: (
+      <>
+        Cada projeto é único, por isso, buscamos sempre as{" "}
+        <span className="text-light-green">melhores soluções</span> para cada
+        cliente.
+      </>
+    ),
   },
 ];
 
@@ -39,11 +51,11 @@ export default function HeroSection() {
             transition={{ duration: 1 }}
           >
             <h1 className="font-bold text-3xl md:text-4xl">
-              Dorem ipsum dolor <br />
-              sit amet, consectetur <br />
-              <b className="text-form-blue">adipiscing</b> elit. Nunc <br />
-              <b className="text-light-green">15% vulputate</b> libero <br />
-              et velit interdum. <br />
+              <b className="text-light-green">8 anos</b> de <br />
+              Soluções Web e <br />
+              Mobile <b className="text-form-blue">Sob Medida</b>
+              <br />
+              para o Seu Negócio <br />
             </h1>
           </motion.div>
           <motion.div
@@ -52,7 +64,7 @@ export default function HeroSection() {
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <a href="">
+            <a href="/contact">
               <button className="mt-8 bg-primary-blue text-lg md:text-base rounded-xl px-5 py-1 md:px-6 md:py-2  font-semibold hover:bg-light-blue ease-in-out duration-300">
                 ENTRE EM CONTATO
               </button>

@@ -63,8 +63,8 @@ export default function About() {
             transition={{ duration: 2 }}
           >
             <h1 className="text-3xl font-bold mb-12">
-              Forem ipsum dolor sit amet,
-              <b className="text-primary-blue">consectetur adipiscing elit.</b>
+              Nossa Equipe Está Preparada Para Resolver Seus
+              <b className="text-primary-blue"> Desafios</b>!
             </h1>
           </motion.div>
           <motion.div
@@ -77,19 +77,20 @@ export default function About() {
               <div className="text-green-blue flex items-center">
                 <Icon name="BiBadgeCheck" />
                 <p className="ml-2">
-                  Forem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                  Comunicação Clara e Objetiva, Entregas Rápidas e de Alta
+                  Qualidade.
                 </p>
               </div>
               <div className="text-light-blue flex items-center">
                 <Icon name="BiBadgeCheck" />
                 <p className="ml-2">
-                  Forem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                  Cada Projeto é Único, Merece a Melhor Solução!
                 </p>
               </div>
               <div className="text-green-blue flex items-center">
                 <Icon name="BiBadgeCheck" />
                 <p className="ml-2">
-                  Forem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                  Cuidamos dos nossos clientes em toda a sua jornada
                 </p>
               </div>
             </div>
@@ -100,7 +101,7 @@ export default function About() {
             exit={{ opacity: 0 }}
             transition={{ duration: 2 }}
           >
-            <a href="">
+            <a href="/contact">
               <button className="mt-8 bg-primary-blue text-lg md:text-base rounded-xl px-5 py-1 md:px-6 md:py-2  font-semibold hover:bg-light-blue ease-in-out duration-300">
                 ENTRE EM CONTATO
               </button>
