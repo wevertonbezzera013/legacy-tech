@@ -49,6 +49,7 @@ export const ContactSection = () => {
             <form
               className="mt-12 w-full flex flex-col gap-4 font-inter text-text"
               onSubmit={handleSubmit(onSubmit)}
+              action="https://formspree.io/f/xaygjqnb"
             >
               <motion.div
                 initial={{ opacity: 0, x: -100 }}

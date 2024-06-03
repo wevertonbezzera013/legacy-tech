@@ -12,25 +12,22 @@ export default function SocialMedia() {
         transition={{ duration: 0.5 }}
       >
         <div className="flex gap-10 absolute">
-          <a className=" " href="" target="_blank">
-            <Icon
-              name="FaGithub"
-              className="text-white bg-primary-blue hover:bg-light-blue ease-in-out duration-300 rounded-full w-12 h-12 p-2"
-            />
-          </a>
-          <a className="" href="wa.me/" target="_blank">
+          <a
+            href="https://api.whatsapp.com/send/?phone=5599982205165&text&type=phone_number&app_absent=0"
+            target="_blank"
+          >
             <Icon
               name="FaWhatsapp"
               className="text-white bg-primary-blue hover:bg-light-blue ease-in-out duration-300 rounded-full w-12 h-12 p-2"
             />
           </a>
-          <a className="" href="" target="_blank">
+          <a href="https://www.instagram.com/_legacytech/" target="_blank">
             <Icon
-              name="FaLinkedin"
+              name="BiLogoInstagram"
               className="text-white bg-primary-blue hover:bg-light-blue ease-in-out duration-300 rounded-full w-12 h-12 p-2"
             />
           </a>
-          <a className="" href="mailto:" target="_blank">
+          <a href="mailto:jlucasamorim@legacytech.net" target="_blank">
             <Icon
               name="MdMail"
               className="text-white bg-primary-blue hover:bg-light-blue ease-in-out duration-300 rounded-full w-12 h-12 p-2"

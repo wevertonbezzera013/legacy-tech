@@ -40,6 +40,8 @@ const HERO_SECTION_ITEMS = [
 ];
 
 export default function HeroSection() {
+  const years = new Date().getFullYear() - 2016;
+
   return (
     <section className="container">
       <div className="flex flex-col-reverse md:flex-row items-center justify-between">
@@ -51,7 +53,7 @@ export default function HeroSection() {
             transition={{ duration: 1 }}
           >
             <h1 className="font-bold text-3xl md:text-4xl">
-              <b className="text-light-green">8 anos</b> de <br />
+              <b className="text-light-green">Mais de {years} anos</b> de <br />
               Soluções Web e <br />
               Mobile <b className="text-form-blue">Sob Medida</b>
               <br />
