@@ -17,13 +17,9 @@ const contactFormSchema = z.object({
 type ContactFormData = z.infer<typeof contactFormSchema>;
 
 export const ContactSection = () => {
-  const { handleSubmit, register } = useForm<ContactFormData>({
+  const { register } = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),
   });
-
-  const onSubmit = (data: ContactFormData) => {
-    console.log(data);
-  };
 
   return (
     <section className="container md:relative py-24 pb-48 px-6 md:py-32 flex justify-center items-center">
@@ -48,8 +44,8 @@ export const ContactSection = () => {
           <div className="flex flex-col z-20">
             <form
               className="mt-12 w-full flex flex-col gap-4 font-inter text-text"
-              onSubmit={handleSubmit(onSubmit)}
               action="https://formspree.io/f/xaygjqnb"
+              method="POST"
             >
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
@@ -112,11 +108,9 @@ export const ContactSection = () => {
                 exit={{ opacity: 0 }}
                 transition={{ duration: 2 }}
               >
-                <a href="/contact">
-                  <button className="mt-6 bg-primary-blue uppercase hover:bg-light-blue rounded-lg ease-in-out duration-300 text-sm px-full py-4 px-24 md:text-base md:py-4 md:px-10 text-white font-bold">
-                    Entre em Contato
-                  </button>
-                </a>
+                <button className="mt-6 bg-primary-blue uppercase hover:bg-light-blue rounded-lg ease-in-out duration-300 text-sm px-full py-4 px-24 md:text-base md:py-4 md:px-10 text-white font-bold">
+                  Entre em Contato
+                </button>
               </motion.div>
             </form>
             <div className="absolute contents">
