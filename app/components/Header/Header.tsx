@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -12,13 +13,15 @@ export default function Header() {
           exit={{ opacity: 0 }}
           transition={{ duration: 1 }}
         >
-          <Image
-            width={68}
-            height={65}
-            src="/images/legacytech-logo.png"
-            alt="legacytech logo"
-            unoptimized
-          />
+          <Link href="/">
+            <Image
+              width={68}
+              height={65}
+              src="/images/legacytech-logo.png"
+              alt="legacytech logo"
+              unoptimized
+            />
+          </Link>
         </motion.div>
       </nav>
     </header>

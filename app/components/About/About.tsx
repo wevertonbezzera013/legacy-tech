@@ -4,21 +4,6 @@ import Image from "next/image";
 import { Icon } from "../icons/icons";
 import { motion } from "framer-motion";
 
-const COMPANY_SECTION_ITEMS = [
-  {
-    alt: "SUZANO",
-    src: "/images/SUZANO.png",
-  },
-  {
-    alt: "SUZANO",
-    src: "/images/SUZANO.png",
-  },
-  {
-    alt: "SUZANO",
-    src: "/images/SUZANO.png",
-  },
-];
-
 export default function About() {
   return (
     <section className="w-full bg-dark-blue top-0 z-10 mt-0 md:mt-52 py-44 ">

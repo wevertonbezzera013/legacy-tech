@@ -6,22 +6,17 @@ import { motion } from "framer-motion";
 const FOOTER_NAV_ITEMS = [
   {
     label: "WHATSAPP",
-    href: "/WHATSAPP",
+    href: "https://api.whatsapp.com/send/?phone=5599982205165&text&type=phone_number&app_absent=0",
     icon: "BiLogoWhatsapp",
   },
   {
-    label: "CONTACT",
-    href: "/contact",
-    icon: "",
-  },
-  {
-    label: "LINKEDIN",
-    href: "/LINKEDIN",
-    icon: "BiLogoLinkedinSquare",
+    label: "E-MAIL",
+    href: "mailto:jlucasamorim@legacytech.net",
+    icon: "MdMail",
   },
   {
     label: "INSTAGRAM",
-    href: "/INSTAGRAM",
+    href: "https://www.instagram.com/_legacytech/",
     icon: "BiLogoInstagram",
   },
 ];
